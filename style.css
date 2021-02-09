@@ -59,31 +59,40 @@
     padding: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #4f7942;
+    font-size: 40px;
 }
 
 .experience{
     display:flex;
     justify-content: space-around;
-    color: #29AB87;
+    color:#4f7942;
+    font-size: 15px;
+}
+.logos1{
+    padding:35px;
+    text-align: center;
+}
+.logos2{
+    padding:35px;
+    text-align: center;
+}
+.logos3{
+    padding:10px;
+    text-align: center;
 }
 
-.caja1{
+.minit{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.caja{
     background-color: white;
     padding: 20px;
     border-radius: 20px;
 }
 
-.caja2{
-    background-color: white;
-    padding: 20px;
-    border-radius: 20px;
-}
 
-.caja3{
-    background-color: white;
-    padding: 20px;
-    border-radius: 20px;
-}
 
 .aboutme{
     display:flex;
