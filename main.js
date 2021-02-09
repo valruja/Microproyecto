@@ -18,3 +18,16 @@ function cambiar_foto(){
 }
 
 window.onload = cambiar_foto;
+
+let boton = document.getElementById("boton_enviar");
+let email = document.getElementById("email").value;
+let nombre = document.getElementById("nombre").value;
+
+
+function enviar(){
+    alert("Se ha enviado tu respuesta");
+    nombre = "";
+    email ="";
+}
+
+boton.addEventListener("click",enviar)

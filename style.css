@@ -3,6 +3,7 @@
     margin:0px;
     padding: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffdb58;
 }
 
 
@@ -38,7 +39,6 @@
     display:flex;
     justify-content: space-around;
     color: #ffdb58;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .aboutme{
@@ -54,4 +54,16 @@
 
 .foto{
     padding: 20px;
+}
+
+.contacto{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button{
+    background-color: lightgray;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
 }
