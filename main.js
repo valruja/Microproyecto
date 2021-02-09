@@ -20,14 +20,28 @@ function cambiar_foto(){
 window.onload = cambiar_foto;
 
 let boton = document.getElementById("boton_enviar");
-let email = document.getElementById("email").value;
-let nombre = document.getElementById("nombre").value;
+let email = document.getElementById("email");
+let nombre = document.getElementById("nombre");
+let mensaje = document.getElementById("mensaje");
+
+
 
 
 function enviar(){
-    alert("Se ha enviado tu respuesta");
-    nombre = "";
-    email ="";
+    if (nombre.value.length==0 || email.value.length==0){
+        alert("Por favor, escribe un mensaje");
+        nombre.value = "";
+        email.value ="";
+        mensaje.value = "";
+    }
+    else{
+        alert("Se ha enviado tu respuesta");
+        nombre.value = "";
+        email.value ="";
+        mensaje.value = "";
+    }
+    
 }
 
 boton.addEventListener("click",enviar)
+

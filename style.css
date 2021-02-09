@@ -3,7 +3,6 @@
     margin:0px;
     padding: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #ffdb58;
 }
 
 
@@ -59,6 +58,7 @@
 .contacto{
     display: flex;
     justify-content: space-around;
+    color: black;
 }
 
 .button{
@@ -66,4 +66,5 @@
     border-radius: 20px;
     width: 20px;
     height: 20px;
+    color: black;
 }
