@@ -1,0 +1,29 @@
+*{
+    background-color: beige;
+    margin:0px;
+    padding: 0px;
+}
+
+
+.navbar a{
+    float: left;
+  color: #ffdb58;
+  background-color: white;
+  width: 309px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar a:hover {
+    background-color:whitesmoke ;
+    color: #ffdb58;
+  }
+
+.navbar a.active {
+    background-color: #4CAF50;
+    color:black;
+  }
+
