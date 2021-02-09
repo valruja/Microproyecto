@@ -2,6 +2,7 @@
     background-color: beige;
     margin:0px;
     padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -9,7 +10,7 @@
     float: left;
   color: #ffdb58;
   background-color: white;
-  width: 309px;
+  width: 305px;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -27,3 +28,30 @@
     color:black;
   }
 
+.titulo{
+    padding: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffdb58;
+}
+
+.experience{
+    display:flex;
+    justify-content: space-around;
+    color: #ffdb58;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.aboutme{
+    display:flex;
+    justify-content: space-around;
+}
+
+.parrafo{
+    padding: 20px;
+    color: #ffdb58;
+    text-justify: distribute-all-lines;
+}
+
+.foto{
+    padding: 20px;
+}
