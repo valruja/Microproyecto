@@ -2,9 +2,9 @@ var i = 0;
 var images = [];
 var time = 3000;
 
-images[0] = "https://www.revistaenfoque.cl/wp-content/uploads/2017/03/woman-working-in-the-office.jpg";
+images[0] = "https://i0.wp.com/www.alphr.com/wp-content/uploads/2017/02/software_engineer_professional_athlete_millions.jpg?fit=1600%2C900&ssl=1";
 images[1] = "https://lh3.googleusercontent.com/NjgEI3G35jhLcXU-y64E7f962DlT-cLcQigoWnSaUrFqB_SBJwneYBIOkusM_tY2emHklBOwOrM9fDsvfQ=w1080-h608-p-no-v0"
-images [2] = "https://www.entornointeligente.com/wp-content/uploads/2020/02/ihay_tareas_que_los_ingenieros_de_sistemas_pueden_hacer_en_dos_horas_.jpg"
+images [2] = "https://c0.wallpaperflare.com/preview/352/710/333/agency-business-company-computer.jpg"
 
 function cambiar_foto(){
     document.slide.src = images[i];
@@ -45,5 +45,18 @@ function enviar(){
 
 boton.addEventListener("click",enviar)
 
+/**Skills */
 
+let titulo = document.createElement("h1");
+let contenido = document.createTextNode("SKILLS");
+titulo.appendChild(contenido);
+titulo.setAttribute("align","center");
+document.getElementById("aboutme").appendChild(titulo);
+
+let skills = {
+    hablidad1: "Capacidad de resolucion de problemas",
+    habilidad2: "Prestar atencion a los detalles",
+    habilidad3: "Alto nivel de conocimientos tecnicos",
+    habilidad4: "Excelentes habilidades interpersonales"
+}
 

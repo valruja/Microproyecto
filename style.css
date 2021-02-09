@@ -14,7 +14,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -27,6 +27,33 @@
     background-color: #4CAF50;
     color:black;
   }
+
+  .hero {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.carrusel:hover .sliders {
+    opacity: 0.3;
+  }
+
+.carrusel:hover .hero {
+    opacity: 1;
+  }
+  
+.minombre {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
 
 .titulo{
     padding: 50px;
