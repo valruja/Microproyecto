@@ -50,13 +50,39 @@ boton.addEventListener("click",enviar)
 let titulo = document.createElement("h1");
 let contenido = document.createTextNode("SKILLS");
 titulo.appendChild(contenido);
-titulo.setAttribute("align","center");
-document.getElementById("aboutme").appendChild(titulo);
+titulo.setAttribute("align","left");
+document.getElementById("skills").appendChild(titulo);
 
 let skills = {
-    hablidad1: "Capacidad de resolucion de problemas",
-    habilidad2: "Prestar atencion a los detalles",
-    habilidad3: "Alto nivel de conocimientos tecnicos",
+    habilidad1: "Capacidad de resolución de problemas",
+    habilidad2: "Prestar atención a los detalles",
+    habilidad3: "Alto nivel de conocimientos técnicos",
     habilidad4: "Excelentes habilidades interpersonales"
 }
+
+let hab1 = document.createElement("li");
+let texto_hab1 = document.createTextNode(`${skills.habilidad1}`);
+hab1.appendChild(texto_hab1);
+hab1.setAttribute("align","left");
+document.getElementById("skills").appendChild(hab1);
+
+let hab2 = document.createElement("li");
+let texto_hab2 = document.createTextNode(`${skills.habilidad2}`);
+hab2.appendChild(texto_hab2);
+hab2.setAttribute("align","left");
+document.getElementById("skills").appendChild(hab2);
+
+let hab3 = document.createElement("li");
+let texto_hab3 = document.createTextNode(`${skills.habilidad3}`);
+hab3.appendChild(texto_hab3);
+hab3.setAttribute("align","left");
+document.getElementById("skills").appendChild(hab3);
+
+let hab4 = document.createElement("li");
+let texto_hab4 = document.createTextNode(`${skills.habilidad4}`);
+hab4.appendChild(texto_hab4);
+hab4.setAttribute("align","left");
+document.getElementById("skills").appendChild(hab4);
+
+
 
