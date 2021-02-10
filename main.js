@@ -24,12 +24,18 @@ let email = document.getElementById("email");
 let nombre = document.getElementById("nombre");
 let mensaje = document.getElementById("mensaje");
 
-
+const emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
 
 
 function enviar(){
     if (nombre.value.length==0 || email.value.length==0){
         alert("Por favor, escribe un mensaje");
+        nombre.value = "";
+        email.value ="";
+        mensaje.value = "";
+    }
+    else if(emailRegex.test(email.value)=!true){
+        alert("El correo introducido no es correcto");
         nombre.value = "";
         email.value ="";
         mensaje.value = "";
@@ -40,7 +46,6 @@ function enviar(){
         email.value ="";
         mensaje.value = "";
     }
-    
 }
 
 boton.addEventListener("click",enviar)
