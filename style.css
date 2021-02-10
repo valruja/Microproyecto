@@ -119,12 +119,6 @@
     border-radius: 20px;
 }
 
-.contacto{
-    display: flex;
-    justify-content: space-around;
-    color: black;
-}
-
 .button{
     background-color: lightgray;
     border-radius: 20px;
@@ -135,4 +129,21 @@
 
 .info{
     align-items: center;
+    padding: 20px;
+    color:#4f7942;
+    font-size: 20px;
+}
+
+.labels{
+  padding: 20px;
+    color:#4f7942;
+    text-justify: distribute-all-lines;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.elwha a{
+  text-underline-offset: none;
+  color: #4f7942;
+
 }
