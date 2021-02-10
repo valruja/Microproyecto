@@ -45,14 +45,6 @@ function enviar(){
 
 boton.addEventListener("click",enviar)
 
-/**Skills */
-
-
-let titulo = document.createElement("h1");
-let contenido = document.createTextNode("SKILLS");
-titulo.appendChild(contenido);
-titulo.setAttribute("align","left");
-document.getElementById("skills").appendChild(titulo);
 
 let skills = {
     habilidad1: "Capacidad de resolución de problemas",
