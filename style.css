@@ -68,6 +68,13 @@
     color:#4f7942;
     font-size: 15px;
 }
+
+.skills{
+    display:flex;
+    justify-content: space-around;
+    color:#4f7942;
+    font-size: 15px;
+}
 .logos1{
     padding:35px;
     text-align: center;

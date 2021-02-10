@@ -47,6 +47,7 @@ boton.addEventListener("click",enviar)
 
 /**Skills */
 
+
 let titulo = document.createElement("h1");
 let contenido = document.createTextNode("SKILLS");
 titulo.appendChild(contenido);
@@ -59,6 +60,7 @@ let skills = {
     habilidad3: "Alto nivel de conocimientos técnicos",
     habilidad4: "Excelentes habilidades interpersonales"
 }
+
 
 let hab1 = document.createElement("li");
 let texto_hab1 = document.createTextNode(`${skills.habilidad1}`);
